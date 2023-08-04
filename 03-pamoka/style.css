@@ -1,0 +1,38 @@
+
+*{ margin:0;
+}
+.card-black{
+width: 350px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 24px;
+overflow: hidden;
+}
+.card-black img{
+    width: 100%;
+}
+.card-black article{
+     padding: 30px;
+            margin: 0;}
+            .card-black p{
+                margin-bottom: 30px; }
+         
+            .button {
+                background-color:black;
+                 color: white;
+                 padding: 8px 16px;
+                 text-decoration: none;
+                 margin: 20px 0px;}
+
+                 .button:hover{
+                    background-color: blue;
+                 }
+
+      .imgflex{
+        padding: 50px;
+        margin: 20px;
+        text-align: center;}
+
+       .imgflex img{ 
+        margin:20px;
+        width: 600px ;
+}

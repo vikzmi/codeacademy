@@ -1,0 +1,51 @@
+*{
+  font-family: 'Inter', sans-serif;
+}
+.Menu {
+  font-size: 20px;
+  line-height: 24px;
+}
+h1 {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+}
+.Main_intro {
+  font-size: 24px;
+  line-height: 32px;
+}
+.Large_body {
+  font-size: 18px;
+  line-height: 24px;
+}
+.small_body_Uppercase_bold {
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+input::placeholder, textarea::placeholder{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: rgba(123, 122, 122, 1);
+}
+.small_body_bold {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.small_body_regular {
+  font-size: 16px;
+  line-height: 24px;
+}

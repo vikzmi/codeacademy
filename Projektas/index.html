@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css"
+    />
+    <title>UAIS Prisijungimas</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"><img src="img/Logo-Light.svg" alt="" /></a>
+        <ol>
+          <li class="Lng">
+            <a href="#"><i class="ph ph-globe-simple"></i> <span>LT</span> </a>
+          </li>
+          <li>
+            <a href="#"><span class="grey">EN</span></a>
+          </li>
+        </ol>
+      </nav>
+    </header>
+    <section>
+      <div class="login">
+        <h1>Prisijungimas</h1>
+        <p>Prašome įvesti savo prisijungimo vardą ir slaptažodį</p>
+        <form action="">
+          <label>Prisijungimo vardas</label>
+          <input type="text" />
+
+          <label>Slaptažodis</label>
+          <div class="pasword">
+            <input type="password" id="passwordInput" />
+
+            <button class="sh-pswd"><i class="ph ph-eye"></i></button>
+          </div>
+
+          <div class="savepasword">
+            <input
+              class="checkbox"
+              type="checkbox"
+              id="savepasword"
+              name="savepasword"
+              checked
+            />
+            <label for="savepasword">Prisiminti slaptažodį</label>
+          </div>
+          <a class="btn" href="pradzia.html">Prisijungti</a>
+
+          <div class="help">
+            <span id="toggleHelp">Nepavyksta prisijungti?</span>
+            <ol class="linkai">
+              <li>
+                <a
+                  class="linkas"
+                  target="_blank"
+                  href="https://registracija.ktu.lt/"
+                >
+                  <i class="ph ph-arrow-right"></i> Registruotis</a
+                >
+              </li>
+              <li>
+                <a
+                  class="linkas"
+                  target="_blank"
+                  href="https://registracija.ktu.lt/forgot_credentials"
+                >
+                  <i class="ph ph-arrow-right"></i> Slaptažodžio keitimas</a
+                >
+              </li>
+              <li>
+                <a
+                  class="linkas"
+                  target="_blank"
+                  href="https://registracija.ktu.lt/change_password"
+                >
+                  <i class="ph ph-arrow-right"></i> Pamiršus prisijungimą</a
+                >
+              </li>
+            </ol>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <ol>
+        <li><a target="_blank" href="https://ktu.edu/">ktu.edu</a></li>
+
+        <li>
+          <a
+            target="_blank"
+            href="https://vb.ktu.edu/primo-explore/search?vid=KTU&lang=lt_LT"
+            >Biblioteka</a
+          >
+        </li>
+
+        <li>
+          <a
+            target="_blank"
+            href="https://moodle.ktu.edu/local/customloginpage/custom_login.php"
+            >Moodle</a
+          >
+        </li>
+
+        <li><a target="_blank" href="https://pastas.ktu.lt/">El.paštas</a></li>
+      </ol>
+      <p>&copy KTU 2023</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

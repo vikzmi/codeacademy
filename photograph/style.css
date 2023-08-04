@@ -1,0 +1,200 @@
+@import url(font.css);
+
+/* bendri */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+nav,
+section,
+.nav-content,
+.nav-menu,
+.hero-container,
+.hero-content,
+.portfolio-container,
+.portfolio-content,
+.Social-icons,
+.Portfolio-fotos,
+.Cards-container,
+.Contacts-content,
+.Post-container,
+.Menu-group,
+.Journal-container,
+.journal-content {
+  display: flex;
+}
+.nav-content,
+.hero-content,
+.introduction-content,
+.portfolio-content,
+.Contacts-content,
+.journal-content {
+  width: 1128px;
+}
+
+nav,
+section,
+.hero-content {
+  justify-content: center;
+}
+
+.portfolio-content,
+.hero-content,
+.Post-container,
+.journal-content {
+  flex-direction: column;
+}
+.journal-content {
+  justify-content: space-between;
+  align-items: center;
+}
+.portfolio-content {
+  justify-content: space-between;
+  align-items: center;
+  margin: 88px 0;
+}
+.Icon-container {
+  margin-bottom: 8px;
+}
+
+/*  Navigation */
+nav {
+  /* justify-content: center; */
+  height: 56px;
+}
+.nav-content {
+  justify-content: space-between;
+  align-items: center;
+}
+.Journal-section h3 {
+  margin: 96px 0 72px;
+}
+
+.Main_intro {
+  margin: 16px 0px 32px;
+}
+
+.Contacts-content {
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 104px 0px 112px;
+}
+.nav-menu,
+.Menu-group {
+  list-style: none;
+  padding-left: 0;
+  gap: 36px;
+  margin: 72px 0 56px;
+}
+/* hero */
+.hero-container {
+  justify-content: center;
+  height: 64vh;
+  background-color: rgba(156, 154, 154, 1);
+  color: white;
+}
+.Social-icons {
+  list-style: none;
+  padding: 0;
+  gap: 24px;
+}
+
+.Cards-container {
+  margin-bottom: 80px;
+  gap: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.Main-introduction-group {
+  display: flex;
+}
+
+.Introduction-section {
+  background-color: rgba(240, 240, 240, 1);
+}
+.Portfolio-fotos {
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.Photo-container {
+  background-color: rgba(190, 184, 184, 1);
+  width: 360px;
+  height: 304px;
+}
+h2 {
+  margin: 32px 0 24px 0;
+}
+.Image-group {
+  position: relative;
+  z-index: 2;
+}
+.Image-container {
+  background-color: rgba(190, 184, 184, 1);
+  width: 360px;
+  height: 448px;
+  margin-right: 24px;
+}
+.Border-container {
+  position: absolute;
+  z-index: -1;
+  top: 64px;
+  right: 96px;
+  width: 360px;
+  height: 456px;
+  outline: solid 24px rgba(147, 145, 145, 1);
+  outline-offset: -24px;
+}
+.Main-introduction-group {
+  margin: 152px 0 160px 0;
+}
+.Icon-container {
+  background-color: rgba(190, 184, 184, 1);
+  width: 40px;
+  height: 40px;
+}
+.Contact-form {
+  width: 50%;
+}
+input {
+  padding: 8px 16px;
+}
+
+.Input-Your-name {
+  margin-right: 24px;
+}
+
+.Input-Your-name,
+.Input-Your-email {
+  width: 46%;
+}
+.Input-subject,
+textarea,
+button {
+  /* display: block; */
+  width: 300px;
+  /* width: 100%; */
+}
+.Adress-group {
+  width: 264px;
+}
+button {
+  background-color: rgba(60, 59, 59, 1);
+  border: solid 1px rgba(66, 66, 66, 1);
+  padding: 16px;
+  font-weight: 400;
+  color: white;
+}
+.Journal-section {
+  background-color: rgba(240, 240, 240, 1);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 0 47px;
+  background-color: rgba(240, 240, 240, 1);
+}
